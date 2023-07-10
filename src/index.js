@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { Telegram } = require("telegraf");
 
 const token = process.env.TG_TOKEN;
